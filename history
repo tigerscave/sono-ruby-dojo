@@ -1,0 +1,156 @@
+    1  sudo yum -y install git
+    2  git clone https://github.com/dotinstallres/centos6.git
+    3  cd centos6/
+    4  ./run.sh
+    5  exec $SHELL -l
+    6  cd ..
+    7  ls
+    8  cd ruby_lessons/
+    9  pwd
+   10  ruby -v
+   11  ruby hello.rb
+   12  irb(main):001:0>
+   13  ruby hello.rb
+   14  ls
+   15  cd ruby_lessons/
+   16  ruby hello.rb 
+   17  ruby hi.rb
+   18  ruby while.rb 
+   19  ruby foreach.rb 
+   20  ruby method.rb 
+   21  ruby class.rb 
+   22  ruby method.rb
+   23  ruby class.rb
+   24  ls
+   25  cd ..
+   26  ls
+   27  cd ruby_lessons/
+   28  ruby access.rb 
+   29  ruby module.rb 
+   30  ruby exception.rb 
+   31  cd
+   32  ls
+   33  pwd
+   34  ls
+   35  cd sinatra_lesson/
+   36  pwd
+   37  ruby -v
+   38  sqlite3 --version
+   39  gem install sinatra sinatra-contrib activerecord sqlite3 --no-document
+   40  ruby app.rb
+   41  ruby app.rb -h
+   42  ip a
+   43  ruby app.rb -o 192.168.33.10
+   44  pwd
+   45  ls
+   46  bundle install pry
+   47  brew
+   48  gem install pry
+   49  ruby app.rb -o 192.168.33.10
+   50  ruby app.rb
+   51  ruby app.rb -o 192.168.33.10
+   52  ls
+   53  ruby app.rb -o 192.168.33.10
+   54  sqlite bbs.db < sees.sql
+   55  sqlite3 bbs.db < sees.sql
+   56  sqlite3 bbs.db
+   57  ruby app.rb -o 192.168.33.10
+   58  cd
+   59  npm install jquery
+   60  ls
+   61  cd sinatra_lesson/
+   62  npm install jquery
+   63  ruby app.rb -o 192.168.33.10
+   64  gem install rack_csrf
+   65  ruby app.rb -o 192.168.33.10
+   66  ls
+   67  pwd
+   68  ls
+   69  ruby app.rb -o 192.168.33.10
+   70  sqlite3 bbs.db < sees.sql
+   71  sqlite3 bbs.db
+   72  ruby app.rb -o 192.168.33.10
+   73  sqlite3 bbs.db
+   74  ruby app.rb -o 192.168.33.10
+   75  cd
+   76  ls
+   77  cd sinatra_lesson/
+   78  git status
+   79  ls
+   80  git init
+   81  git add . 
+   82  sl
+   83  ls
+   84  git status
+   85  git add . 
+   86  git commit -m "temp commit"
+   87  ls
+   88  git remote -v
+   89  git remote add origingit@gitlab.com:tiger-sonoda/sinatra-practice.git
+   90  git remote add origin git@gitlab.com:tiger-sonoda/sinatra-practice.git
+   91  git fetch origin
+   92  cd .ssh
+   93  cd
+   94  cd .ssh/
+   95  ls
+   96  vim id_rsa
+   97  vi id_rsa
+   98  cd 
+   99  ls
+  100  cd sinatra_lesson/
+  101  ls
+  102  git status
+  103  ls
+  104  git status
+  105  git fetch origin
+  106  vim ~/.ssh/known_hosts 
+  107  vi ~/.ssh/known_hosts 
+  108  git fetch origin
+  109  ssh git@github.com
+  110  ssh-agent -a
+  111  ssh-agent 
+  112  ssh-agent SSH_AUTH_SOCK=/tmp/ssh-tsLov21666/agent.21666; export SSH_AUTH_SOCK;
+  113  SSH_AGENT_PID=21667; export SSH_AGENT_PID;
+  114  echo Agent pid 21667;
+  115  ssh git@github.com
+  116  sudo
+  117  sudo -i
+  118  whoami
+  119  sudo chown vagrant:vagramt /home/vagrant/.ssh/id_rsa 
+  120* 
+  121  ssh git@github.com
+  122  sudo chmod 644 /home/vagrant/.ssh/id_rsa 
+  123  ssh git@github.com
+  124  sudo chmod 600 /home/vagrant/.ssh/id_rsa 
+  125  ssh git@github.com
+  126  ssh-agent 
+  127  eval `ssh-agent `
+  128  ssh git@github.com
+  129  git fetch origin
+  130  ssh-add 
+  131  ssh git@github.com
+  132  git fetch origin
+  133  git branch -a
+  134  git branch -m on-vagrant
+  135  git push origin on-vagrant
+  136  git remote -v
+  137  git remote rename origin gitlab
+  138  git remote add github git@github.com:tigerscave/sono-sinatra-dojo.git
+  139  git push github on-vagrant
+  140  ls
+  141  git checkout -b master
+  142  ls
+  143  git status
+  144  tig --all
+  145  ls
+  146  git fetch origin github
+  147  git fetch github
+  148  git remote -v
+  149  ls
+  150  git rebase github/master
+  151  git status
+  152  git lgo
+  153  git log
+  154  git push github master
+  155  history
+  156  history > history
